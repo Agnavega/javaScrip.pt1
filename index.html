@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo js</title>
+    <style>
+        .container{
+            height: 300px;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <h1>Bienvenidos a mi pagina web</h1>
+         <input type="text">
+         <button>re lesbi</button>
+    </div>
+   
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    //formas de imprimir en pantalla
+    console.log("esto es un mensaje en consola");
+    document.write("esto es un texto en el archivo html");
+    Swal.fire("SweetAlert2 is working!");
+    let num=879;
+    if(num%2===0){
+        console.log("es par");
+    }else{
+
+        console.log("es impar");
+    }
+
+    let password="locion";
+    if (password==="locion"){
+        console.log("la contraseña es correcta");
+    }else{
+        console.log("es incorrecta");
+
+        let edad = prompt("cuantos años tienes?");
+        edad= parseInt(edad);
+    }
+    let number=9;
+    let tabla=10;
+    for(i=0;i<=tabla;i++){
+        console.log(number+"x"+i+"="+(number*i));
+    }
+
+    let j=0;
+
+    while (j<=tabla) {
+        console.log(number+"x"+j+"="+(number*j));
+        j++;
+    }
+
+</script>
+</html>
